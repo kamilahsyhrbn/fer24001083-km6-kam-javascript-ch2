@@ -14,8 +14,7 @@ let uniqueArr = arr.filter((e, i, arr) => {
   // merged = arr.indexOf(e) === i;
   // console.log("merged", merged);
   // return merged;
-  // indefOf() -->  mencari indeks pertama dari nilai elemen di dalam array
-  return arr.indexOf(e) === i;
+  return arr.indexOf(e) === i; // indefOf() --> mencari indeks pertama dari nilai elemen di dalam array
 });
 
 console.log(uniqueArr); // Output : [1, 2, 3, 30]
